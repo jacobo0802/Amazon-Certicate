@@ -1,3 +1,4 @@
+package Strings;
 public class Strings {
    public static void main(String[] args) {
     String bookTitle = "The Adventures of Captain Fantastic and the Magical Unicorn";
@@ -5,11 +6,11 @@ public class Strings {
     System.out.println("Length of the book title: " + titleLength);
 
     //Declare and initialize the length of the shortened book title
-    //int maxLength = 20;
+    int maxLength = 20;
 
 
     // Shortened the book title
-    String shortBookTitle = bookTitle.substring(0, 20);
+    String shortBookTitle = bookTitle.substring(0, maxLength);
     System.out.println("Original title: " + bookTitle);
     System.out.println("Shortened title: " + shortBookTitle);
 
